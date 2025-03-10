@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #0b2140, #1a3b6d, #3366cc);
+    color: white;
+}
+
+
+header {
+    background: rgba(11, 33, 64, 0.9); 
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+
+.logo img {
+    width: 80px;
+    display: block;
+    margin: 0 auto 10px auto;
+}
+
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin: 0 15px;
+    padding: 10px 15px;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background: #ffd700;
+    color: #0b2140;
+}
+
+
+main {
+    text-align: center;
+    padding: 30px;
+}
+
+
+.about, .history, .standings, .ukrainians {
+    background: rgba(255, 255, 255, 0.15); 
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(8px); /* Ефект скла */
+}
+
+
+h2 {
+    color: #ffd700;
+    font-size: 26px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+
+img {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 15px;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.3);
+}
+
+
+.player {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.player img {
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.3);
+    transition: transform 0.3s ease-in-out;
+}
+
+.player img:hover {
+    transform: scale(1.1);
+}
+
+.player h3 {
+    font-size: 22px;
+    margin-top: 10px;
+    color: #ffd700;
+}
+
+
+footer {
+    background: rgba(11, 33, 64, 0.9);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
